@@ -1,0 +1,227 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5rem;
+}
+
+.calculadora {
+    min-height: 458px;
+    width: 440px;
+    background-color: rgb(245, 161, 161);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -190px;
+    border: 3px solid black;
+}
+
+#texto {
+    padding: 1rem;
+    width: 50vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#apagar {
+    padding: 1.1rem;
+    margin-top: -0.32rem;
+    margin-left: 30px;
+    color: snow;
+    border: 2px solid black;
+    background-color: rgb(224, 115, 115);
+    font-weight: bold;
+    font-size: 0.95rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#limpar {
+    padding: 1.1rem;
+    margin-top: -3.5rem;
+    margin-left: 233px;
+    color: snow;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(224, 115, 115);
+    font-weight: bold;
+    font-size: 0.95rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+#um {
+    padding: 1rem;
+    margin-top: 11px;
+    margin-left: -191px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#dois {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-left: -40px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#tres {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: -110px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#quatro {
+    padding: 1rem;
+    margin-top: 6px;
+    margin-right: 191px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#cinco {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: 40px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#seis {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: -110px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#sete {
+    padding: 1rem;
+    margin-top: 6px;
+    margin-right: 191px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#oito {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: 40px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#nove {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: -110px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#zero {
+    padding: 1rem;
+    margin-top: 6px;
+    margin-right: 191px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#ponto {
+    padding: 1.01rem;
+    margin-top: -49px;
+    margin-right: 40px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#igual {
+    padding: 1rem;
+    margin-top: -49px;
+    margin-right: -110px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#adicao {
+    padding: 1.01rem;
+    margin-top: -215px;
+    margin-right: -255px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#subtracao {
+    padding: 1.02rem;
+    margin-top: 5px;
+    margin-right: -255px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#multiplicacao {
+    padding: 1.02rem;
+    margin-top: 5px;
+    margin-right: -255px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#divisao {
+    padding: 1.02rem;
+    margin-top: 5px;
+    margin-right: -255px;
+    background: snow;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    width: 320px;
+    background: snow;
+    height: 40px;
+    padding: 1.5rem;
+    border: 2px solid black;
+    margin-top: -0.7rem;
+}
